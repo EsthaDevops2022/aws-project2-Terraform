@@ -1,9 +1,15 @@
 # Variables
 
+variable "region-name" {
+  description = "Describes the region where you're hosting your app"
+  type        = string
+  default     = "us-east-1"
+}
+
 variable "s3_bucket_name" {
   description = "The s3 bucket name"
-  type = string
-  default = "project2-bucket-em"
+  type        = string
+  default     = "project2-bucket-em"
 }
 variable "static_files_path" {
   description = "Path to the directory containing static website files"

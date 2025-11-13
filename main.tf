@@ -133,7 +133,7 @@ resource "aws_cloudfront_distribution" "project2-bucket-em" {
     acm_certificate_arn      = data.aws_acm_certificate.wildcard.arn
     ssl_support_method       = "sni-only"
     minimum_protocol_version = "TLSv1.2_2021"
-    
+
   }
 
 
