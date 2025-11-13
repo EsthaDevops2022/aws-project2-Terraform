@@ -1,6 +1,0 @@
-
-*.tfstate
-*.tfstate.backup
-*.lock.hcl
-*.terraform
-.gitignore
